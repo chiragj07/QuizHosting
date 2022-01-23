@@ -1,0 +1,23 @@
+.result-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button-div{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width:480px) {
+    .button-div{
+        flex-direction: column;
+        line-height: 1;
+    }
+    button{
+        width: 6rem;
+    }
+    
+}
